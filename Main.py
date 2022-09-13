@@ -13,7 +13,6 @@ def insertionSort(array) -> List[int]:
         array[j + 1] = key
    return array
 
-
 input_data = input()
 data = []
 for item in input_data.split(', '):
